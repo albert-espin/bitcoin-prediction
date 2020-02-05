@@ -8,3 +8,5 @@ Recurrent Neural Networks (RNNs) are a Neural Networks that can be applied as pr
 | **Author** | Albert Espín (partially; the code is a modification of Prof. Javier Béjar's [Air Quality prediction](https://github.com/bejar/DLMAI/blob/master/AirQuality/AQPredictionRNN.py)) |
 | **Date**  | March 2019  |
 | **Report license**  | Creative Commons Attribution, Non-Commercial, Non-Derivative |
+
+![](plot.png)
