@@ -1,0 +1,25 @@
+{
+  "data": {
+    "datanames": ["bitcoin_price_history"],
+    "vars": [0,1,2,3,4,5,6],
+    "datasize": 1200000,
+    "testsize": 93167,
+    "dataset": 0,
+    "lag": 6,
+    "ahead": 1
+  },
+  "arch": {
+    "neurons": 64,
+    "rnn": "GRU",
+    "drop": 0,
+    "nlayers": 1,
+    "activation": "tanh",
+    "activation_r": "hard_sigmoid"
+  },
+  "training": {
+    "batch": 500,
+    "epochs": 25,
+    "optimizer": "adam",
+    "lrate": 0.001
+  }
+}
